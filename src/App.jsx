@@ -17,16 +17,17 @@ function App() {
     setComida(event.target.value);
   };
   
-
   const validUserName = (userName) => {
     const withoutSpace = userName.trim();
 
     if (withoutSpace.length >= 3) {
       return true;
     } else {
+      setSend(false);
       setErrorSelect("Nombre debe tener al menos 3 caracteres");
       return false;
     }
+   
   };
 
   const validComida = (comida) => {
@@ -34,6 +35,7 @@ function App() {
     if (withoutSpace.length >= 6) {
       return true;
     } else {
+      setSend(false);
       setErrorSelect("Comida favorita debe tener al menos 6 caracteres");
       return false;
     }
