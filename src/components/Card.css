@@ -1,0 +1,24 @@
+.Card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.Card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.ComidaFavorita {
+    background-color: red;
+    height: 30px;
+
+}
